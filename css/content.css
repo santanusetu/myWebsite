@@ -1,0 +1,113 @@
+.btn.btn-default {
+    margin: 40px auto 0;
+    background: transparent;
+    position: relative;
+    color: #fff;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    padding: 12px 26px 12px;
+    cursor: pointer;
+    border: 2px solid #4cddf3;
+    border-radius: 0;
+    letter-spacing: 2px;
+    pointer-events: auto;
+    border-color: #fff;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+.btn.btn-default:hover, .btn.btn-default:active {
+    background: #fff;
+    border-color: #fff;
+    color: #fff;
+}
+
+/* ==========================================================================
+   Social icons
+   ========================================================================== */
+
+.social-icons .btn {
+    margin-right: 15px;
+}
+.social-icons {
+    padding-top: 10px;
+    margin-bottom: 35px;
+}
+.social-icons .btn.btn-clear {
+    border: 1px solid #fff;
+}
+.btn-round {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    padding: 0;
+}
+.btn-round i {
+    font-size: 20px;
+    top: 15px;
+    position: relative;
+}
+.btn.btn-clear {
+    border: 1px solid #fff;
+    color: #fff;
+    background: none;
+    font-weight: bold;
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    -o-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    transition-property: transform;
+}
+.btn.btn-clear:hover, .btn.btn-clear.selected {
+    background: #fed136;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}
+.btn-twitter:hover {
+    color: #2BA9E0;
+}
+.btn-facebook:hover {
+    color: #204385;
+}
+.btn-github:hover {
+    color: #D92C85;
+}
+.btn-instagram:hover {
+    color: #BAB1A8;
+}
+.btn-linkedin:hover {
+    color: #015786;
+}
+.btn-pinterest:hover {
+    color: #CA2128;
+}
+.btn-google:hover {
+    color: #D3492C;
+}
+
+.btn-info:hover {
+    color: #fed136;
+}
+
+.spacer {
+    background: #3498db;
+    width: 200px;
+    height: 2px;
+    margin: auto;
+    margin-bottom: 40px
+}
+
+.network-name {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}

@@ -43,7 +43,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bg-light-gray {
-    background-color: #f7f7f7
+    background-color: #fffff5
 }
 
 .bg-darkest-gray {
@@ -216,7 +216,8 @@ header .intro-text {
 }
 
 header .intro-text .intro-lead-in {
-    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #fed136;
+    font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive,
     font-style: italic;
     font-size: 22px;
     line-height: 22px;
@@ -241,18 +242,17 @@ header .intro-text .intro-heading {
     header .intro-text .intro-lead-in {
         font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-style: italic;
-        font-size: 40px;
-        line-height: 40px;
-        margin-bottom: 25px
+        font-size: 25px;
+        line-height: 25px;
+        margin-bottom: 20px
     }
 
     header .intro-text .intro-heading {
         font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-        text-transform: uppercase;
         font-weight: 700;
-        font-size: 75px;
-        line-height: 75px;
-        margin-bottom: 50px
+        font-size: 40px;
+        line-height: 40px;
+        margin-bottom: 35px
     }
 }
 
@@ -272,7 +272,7 @@ section h3.section-subheading {
     text-transform: none;
     font-style: italic;
     font-weight: 400;
-    margin-bottom: 75px
+    margin-bottom: 25px
 }
 
 @media (min-width: 768px) {
@@ -348,7 +348,7 @@ section h3.section-subheading {
 #portfolio .portfolio-item .portfolio-caption p {
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: italic;
-    font-size: 16px;
+    font-size: 10px;
     margin: 0
 }
 
@@ -560,24 +560,26 @@ section h3.section-subheading {
     }
 }
 
-.team-member {
+.edu-details {
     text-align: center;
     margin-bottom: 50px
 }
 
-.team-member img {
+.edu-details img {
     margin: 0 auto;
-    border: 7px solid #fff
+    border: 7px solid #fff;
+    width:  240px;
+    height: 180px;
 }
 
-.team-member h4 {
+.edu-details h4 {
     margin-top: 25px;
     margin-bottom: 0;
     text-transform: none
 }
 
-.team-member p {
-    margin-top: 0
+.edu-details p {
+    margin-top: 30px
 }
 
 aside.clients img {
@@ -792,3 +794,11 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #fed136
 }
+
+.portfolio-item img {
+    width: 180px;
+    height: 120px;
+    margin: 0 auto;
+    border: 7px solid #fff
+}
+
