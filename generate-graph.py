@@ -24,4 +24,4 @@ while current_date < end_date:
 
     current_date += timedelta(days=1)
 
-os.system('git push -u origin main ')
+os.system('git push -u origin master ')
